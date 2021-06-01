@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "com.example";
+
+service Foo {
+  rpc ping(Dto) returns (Dto);
+}
+
+message Dto {
+
+}
